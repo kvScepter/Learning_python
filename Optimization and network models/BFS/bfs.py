@@ -7,7 +7,7 @@ import sys
 sys.path.append('./lib')
 
 from randomgraph import randomgraph
-from cytoscape_js import create_html
+from cytoscape1_js import create_html
 
 
 ##### config #####
