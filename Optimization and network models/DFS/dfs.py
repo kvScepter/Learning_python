@@ -13,7 +13,7 @@ import networkx as nx
 import numpy as np
 
 import sys
-sys.path.append('/home/varpha/ovm/public/vko2/lib')
+sys.path.append('./lib')
 
 from randomgraph import randomgraph
 from cytoscape_js import create_html
