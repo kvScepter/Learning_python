@@ -1,19 +1,10 @@
-
-#### HUOM! ###
-
-# älkää suotta ihmetelkö paikoin puuttuvaa dokumentaatiota
-# se on ihan samaa kuin peruspiirto-koodissa
-# siksi puuttuu
-# terveisin harri
-
-
 ##### imports #####
 
 import networkx as nx
 import numpy as np
 
 import sys
-sys.path.append('/home/varpha/ovm/public/vko2/lib')
+sys.path.append('./lib')
 
 from randomgraph import randomgraph
 from cytoscape_js import create_html
