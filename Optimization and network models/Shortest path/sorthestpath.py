@@ -1,7 +1,7 @@
 import numpy as np
 import networkx as nx
 import sys
-sys.path.append("./Lib")
+sys.path.append("./lib")
 
 #csv tiedostossa oleva matriisi käyttöön
 numpy_matriisi = np.genfromtxt('distance.csv', delimiter=',')
