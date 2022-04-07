@@ -1,12 +1,4 @@
 
-#### HUOM! ###
-
-# älkää suotta ihmetelkö paikoin puuttuvaa dokumentaatiota
-# se on ihan samaa kuin peruspiirto-koodissa
-# siksi puuttuu
-# terveisin harri
-
-
 ##### imports #####
 
 import networkx as nx
