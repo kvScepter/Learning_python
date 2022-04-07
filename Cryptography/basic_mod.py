@@ -1,6 +1,6 @@
 import string
 
-with open("decrypthis.txt") as filp:
+with open("decrypthisMOD37.txt") as filp:
           
           contents = filp.read()
           #make list of numbers to list
