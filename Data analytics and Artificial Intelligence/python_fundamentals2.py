@@ -11,3 +11,11 @@ cars2 = [{"make":"Toyota", "model":"Corolla","color":"red","year":1985},{"make":
 
 cars.extend(cars2)
 print(cars)
+
+
+#Below is a list containing words. Create a function which returns only words with length of 4 or less
+words = ["bootcamp","yellow","development","full-time","code","fresh","","static","red","advance","mill","story","are"]
+
+for sana in words:
+    if(len(sana)<=4):
+        print(sana)
