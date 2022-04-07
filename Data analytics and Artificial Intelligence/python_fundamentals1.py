@@ -15,3 +15,13 @@ lista = s2.split(" ")
 print(lista)
 uusi_lista = lista[-3:]
 print(uusi_lista)
+
+#Below is a list containing words. Sort the words in the first half of the list by length in ascending order and words in the last half of the list so that words will be sorted alphabetically in descending order. 
+#Combine these list into one.
+# Word list
+word_list = ["brainstorming","staff","north","outside","pass","leftover","offline","journey","globalize","zero","bandwidth","outsourcing","fruit","productive"]
+word_list1 = word_list[:int(len(word_list)/2)]
+word_list2 = word_list[int(len(word_list)/2):]
+#print(sorted(word_list1,key=len))
+#print(sorted(word_list2,reverse=True))
+print(sorted(word_list1) + sorted(word_list2, reverse=True))
