@@ -1,6 +1,6 @@
 from operator import itemgetter
 import json
-with open("./data files/gamedata.json") as gamedata:
+with open("./Data files/gamedata.json") as gamedata:
     pelit = json.load(gamedata)
 
 #print(type(pelit))
