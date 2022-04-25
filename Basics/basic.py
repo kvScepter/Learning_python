@@ -4,6 +4,11 @@ print(x)
 x = x + 2
 print(x)
 
+a = 35.0
+b = 12.50
+c = a * b
+print(c)
+
 # Conditional Steps
 x = 5
 if x < 10:
